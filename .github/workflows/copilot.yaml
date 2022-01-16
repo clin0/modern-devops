@@ -18,3 +18,5 @@ jobs:
 
       # sample use
       - run: copilot help
+      - run: copilot app show
+      
