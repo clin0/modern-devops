@@ -8,6 +8,7 @@ authors = ["siyi lin <linsiyi7@gmail.com>"]
 python = "^3.8"
 fastapi = "^0.71.0"
 uvicorn = "^0.17.0"
+awscli = "^1.22.37"
 
 [tool.poetry.dev-dependencies]
 
