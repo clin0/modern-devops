@@ -3,6 +3,7 @@ on: push
 jobs:
   copilot:
     runs-on: ubuntu-latest
+    environment: test
     steps:
       - name: Install copilot
         run: |
@@ -19,4 +20,3 @@ jobs:
       # sample use
       - run: copilot help
       - run: copilot app show
-      
